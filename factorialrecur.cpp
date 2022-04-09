@@ -13,3 +13,5 @@ int facto(int a){
 int main(){
     cout<<facto(5);
 }
+
+
