@@ -2,13 +2,22 @@
 
 using namespace std;
 
+struct test{
+    int val1;
+    string val2;
+    bool val3=true;
+
+};
+
 int main(){
 
     double a,b,c,d,e;
+    test my_test;
+    cout<<"enter test attributes"<<endl;
+    cin>>my_test.val1>>my_test.val2>>my_test.val3;
+    cout<<"\nthe values are "<<endl;
+    cout<<my_test.val1<<"\t"<<my_test.val2<<"\t"<<my_test.val3<<endl;
 
-    cout<<"Enter all 5 numbers to find AVG\n";
-    cin>>a>>b>>c>>d>>e;
-    cout<<((a+b+c+d+e)/5)<<endl;
     return 0;
 
 }
