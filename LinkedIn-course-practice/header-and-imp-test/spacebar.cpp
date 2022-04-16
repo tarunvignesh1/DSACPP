@@ -1,7 +1,7 @@
 //Impelemtation file for spacebar.h
 #include <iostream>
 #include <string>
-#include "spacebar.h"
+#include "spacebar.hpp"
 
 void spacebar::set_value1(int val){
     val1 = val;
@@ -29,7 +29,7 @@ void spacebar::spacebar_op(){
     temp = val1;
     val1 = (val1-val2);
     val2 = (temp-val1);
-    //cmt = cmt+" Done";
+    cmt = cmt+" Done";
 
 }
 

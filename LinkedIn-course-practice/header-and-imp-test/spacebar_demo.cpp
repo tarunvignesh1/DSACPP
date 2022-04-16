@@ -1,5 +1,5 @@
 #include <iostream>
-#include "spacebar.h"
+#include "spacebar.hpp"
 #include <string>
 
 int main(){
@@ -15,6 +15,6 @@ int main(){
     std::cout<<"\n Values \n val1 "<<obj.get_value1()<<"\n val2 "<<obj.get_value2()<<"\n cmt "<<obj.get_cmt();
     obj.spacebar_op();
     std::cout<<"\nPrivate key :";
-    std::cout<<obj.get_value1()<<obj.get_value2()<<obj.get_cmt()<<std::endl;
+    std::cout<<std::to_string(obj.get_value1())<<std::to_string(obj.get_value2())<<obj.get_cmt()<<std::endl;
 return 0;
 }
